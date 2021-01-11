@@ -1,0 +1,84 @@
+.campo-digitacao {
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid black;
+}
+
+.frase {
+    font-size: 20px;
+    text-align: left;
+}
+
+.nome {
+    font-size: 1.5em;
+    color: #080808;
+}
+
+.jogar {
+    margin-bottom: 1.2em;
+    border-radius: 5px;
+    background-color:#00AAFF;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.jogar:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+.campo-desativado {
+    background-color: lightgray;
+}
+
+.icones {
+    vertical-align: middle;
+}
+
+.borda-verde {
+    border: 3px solid green;
+}
+
+.borda-vermelha {
+    border: 3px solid red;
+}
+
+.placar {
+    display: none;
+}
+
+body {
+    overflow: scroll;
+}
+
+#erro {
+    color:red;
+    display: none;
+}
+
+#spinner {
+    display: none;
+}
+
+#frase-id {
+    width: 3em;
+}
+
+#sync {
+    float: right;
+}
+
+.select-usuarios {
+    display: inline-block;
+}
+
+#usuarios {
+    display: block;
+}
+
+.selectize-input {
+    width: 10em;
+    vertical-align: middle;
+}
